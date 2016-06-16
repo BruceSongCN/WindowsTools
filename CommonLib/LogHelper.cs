@@ -4,6 +4,11 @@ using System.Text;
 
 namespace CommonLib
 {
+    /// <summary>
+    /// 说明：日志帮助类
+    /// 作者：BRUCE
+    /// 日期：2016-06-15
+    /// </summary>
     public class LogHelper
     {
         private static object lockobj = new object();

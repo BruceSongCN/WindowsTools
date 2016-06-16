@@ -9,6 +9,11 @@ using System.Xml;
 
 namespace CommonLib
 {
+    /// <summary>
+    /// 说明：邮件发送帮助类
+    /// 作者：BRUCE
+    /// 日期：2016-06-15
+    /// </summary>
     public class SmtpHelper
     {
         #region Fields

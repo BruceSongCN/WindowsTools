@@ -6,11 +6,6 @@ using System.Threading.Tasks;
 
 namespace DiskMonitor
 {
-    /// <summary>
-    /// 说明：日志帮助类
-    /// 作者：BRUCE
-    /// 日期：2016-06-15
-    /// </summary>
     class Program
     {
         static string strLogPath;
