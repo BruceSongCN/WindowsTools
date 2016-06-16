@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/>
+  </startup>
+  <appSettings>
+    <!-- 磁盘监测配置项，格式{盘符（大写字母）:最小磁盘报警阈值（GB）}。多个磁盘监测使用“,”分隔，例：{D:30},{E:40} -->
+    <add key="DiskSetting" value="{D:50}"/>
+    <!-- 邮箱配置
+      SmtpServer：SMTP服务器地址     
+      UserName:发件箱用户名
+      Password:发件箱密码
+      MailTo:收件人地址，多个使用“,”分隔
+      ServerName:目标服务器名称（邮件标记服务器使用）-->
+    <add key="EmailSetting" value="SmtpServer:smtp.exmail.qq.com;UserName:XXXX;Password:XXXX;MailTo:XXXX;ServerName:XXXX"/>
+    <!-- 日志记录路径 -->
+    <add key="LogPath" value="C:\DiskMonitor"/>
+  </appSettings>
+</configuration>
