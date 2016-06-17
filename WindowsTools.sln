@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiskMonitor", "DiskMonitor\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLib", "CommonLib\CommonLib.csproj", "{26895A02-4B7C-4307-8545-035BC5C040D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spider", "Spider\Spider.csproj", "{62C5F4B2-CCEF-4D10-A3CF-F1797F1502AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{26895A02-4B7C-4307-8545-035BC5C040D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26895A02-4B7C-4307-8545-035BC5C040D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26895A02-4B7C-4307-8545-035BC5C040D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62C5F4B2-CCEF-4D10-A3CF-F1797F1502AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C5F4B2-CCEF-4D10-A3CF-F1797F1502AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C5F4B2-CCEF-4D10-A3CF-F1797F1502AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C5F4B2-CCEF-4D10-A3CF-F1797F1502AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
